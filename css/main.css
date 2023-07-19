@@ -130,6 +130,27 @@ header {
 }
 /*End of modal styling*/
 
+/*Zebra table*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 18px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+th {
+  background-color: #e5e4e4;
+}
+
+tr:nth-child(even) {
+  background-color: #efeeee;
+}
+
 /* When the screen is less than 800 pixels wide */
 @media screen and (max-width: 800px) {
   /* Hide all links, except for the selected tab */
